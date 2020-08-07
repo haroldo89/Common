@@ -1,0 +1,139 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{CBF3CB38-D15A-4B50-A3C2-065903BC0C15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Web", "Common.Web\Common.Web.csproj", "{CBA0889F-3000-41C1-ADBD-96F7A161C84C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.DataAccess", "Common.DataAccess\Common.DataAccess.csproj", "{E6E9C4A5-0EB4-4E1B-9037-65826FDE7430}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.SMS", "Common.SMS\Common.SMS.csproj", "{3AD2A252-DA31-48A7-9324-E34F0101959F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Mail", "Common.Mail\Common.Mail.csproj", "{F37FBEDA-7AE7-431F-9B4F-C9A5CC51912B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.DataImport", "Common.DataImport\Common.DataImport.csproj", "{863C42F7-3808-44A9-8B9E-1409F82AB3AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.DataExport", "Common.DataExport\Common.DataExport.csproj", "{B7781613-517C-4C74-88B1-051F66BCCB62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Logger", "Common.Logger\Common.Logger.csproj", "{33FA004A-951F-42DF-BA8A-BADEB519D872}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Security", "Common.Security\Common.Security.csproj", "{59AA1435-804D-49E1-A5D7-971B85FEA77E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.SpatialData", "Common.SpatialData\Common.SpatialData.csproj", "{7E60A32A-29F5-4804-B335-17E2EFC60FB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.PdfGenerator", "Common.PdfGenerator\Common.PdfGenerator.csproj", "{C75A1269-6857-4D53-9482-E671B4669D25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.EngineModel", "Common.EngineModel\Common.EngineModel.csproj", "{D151D21A-E771-49BE-949B-4C53D44E9B37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.SchedulerCore", "Common.SchedulerCore\Common.SchedulerCore.csproj", "{801C0F18-B1EF-4A89-96F9-6E2FBCE92219}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBF3CB38-D15A-4B50-A3C2-065903BC0C15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBF3CB38-D15A-4B50-A3C2-065903BC0C15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBF3CB38-D15A-4B50-A3C2-065903BC0C15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBF3CB38-D15A-4B50-A3C2-065903BC0C15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBA0889F-3000-41C1-ADBD-96F7A161C84C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBA0889F-3000-41C1-ADBD-96F7A161C84C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBA0889F-3000-41C1-ADBD-96F7A161C84C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBA0889F-3000-41C1-ADBD-96F7A161C84C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6E9C4A5-0EB4-4E1B-9037-65826FDE7430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6E9C4A5-0EB4-4E1B-9037-65826FDE7430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6E9C4A5-0EB4-4E1B-9037-65826FDE7430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6E9C4A5-0EB4-4E1B-9037-65826FDE7430}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AD2A252-DA31-48A7-9324-E34F0101959F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AD2A252-DA31-48A7-9324-E34F0101959F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AD2A252-DA31-48A7-9324-E34F0101959F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AD2A252-DA31-48A7-9324-E34F0101959F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F37FBEDA-7AE7-431F-9B4F-C9A5CC51912B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F37FBEDA-7AE7-431F-9B4F-C9A5CC51912B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F37FBEDA-7AE7-431F-9B4F-C9A5CC51912B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F37FBEDA-7AE7-431F-9B4F-C9A5CC51912B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{863C42F7-3808-44A9-8B9E-1409F82AB3AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{863C42F7-3808-44A9-8B9E-1409F82AB3AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{863C42F7-3808-44A9-8B9E-1409F82AB3AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{863C42F7-3808-44A9-8B9E-1409F82AB3AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7781613-517C-4C74-88B1-051F66BCCB62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7781613-517C-4C74-88B1-051F66BCCB62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7781613-517C-4C74-88B1-051F66BCCB62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7781613-517C-4C74-88B1-051F66BCCB62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33FA004A-951F-42DF-BA8A-BADEB519D872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33FA004A-951F-42DF-BA8A-BADEB519D872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33FA004A-951F-42DF-BA8A-BADEB519D872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33FA004A-951F-42DF-BA8A-BADEB519D872}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59AA1435-804D-49E1-A5D7-971B85FEA77E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59AA1435-804D-49E1-A5D7-971B85FEA77E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59AA1435-804D-49E1-A5D7-971B85FEA77E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59AA1435-804D-49E1-A5D7-971B85FEA77E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E60A32A-29F5-4804-B335-17E2EFC60FB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E60A32A-29F5-4804-B335-17E2EFC60FB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E60A32A-29F5-4804-B335-17E2EFC60FB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E60A32A-29F5-4804-B335-17E2EFC60FB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C75A1269-6857-4D53-9482-E671B4669D25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C75A1269-6857-4D53-9482-E671B4669D25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C75A1269-6857-4D53-9482-E671B4669D25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C75A1269-6857-4D53-9482-E671B4669D25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D151D21A-E771-49BE-949B-4C53D44E9B37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D151D21A-E771-49BE-949B-4C53D44E9B37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D151D21A-E771-49BE-949B-4C53D44E9B37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D151D21A-E771-49BE-949B-4C53D44E9B37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{801C0F18-B1EF-4A89-96F9-6E2FBCE92219}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{801C0F18-B1EF-4A89-96F9-6E2FBCE92219}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{801C0F18-B1EF-4A89-96F9-6E2FBCE92219}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{801C0F18-B1EF-4A89-96F9-6E2FBCE92219}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 14
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://albatrossoft2.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Common.DataAccess\\Common.DataAccess.csproj
+		SccProjectName1 = Common.DataAccess
+		SccLocalPath1 = Common.DataAccess
+		SccProjectUniqueName2 = Common.Web\\Common.Web.csproj
+		SccProjectName2 = Common.Web
+		SccLocalPath2 = Common.Web
+		SccProjectUniqueName3 = Common\\Common.csproj
+		SccProjectName3 = Common
+		SccLocalPath3 = Common
+		SccProjectUniqueName4 = Common.SMS\\Common.SMS.csproj
+		SccProjectName4 = Common.SMS
+		SccLocalPath4 = Common.SMS
+		SccProjectUniqueName5 = Common.Mail\\Common.Mail.csproj
+		SccProjectName5 = Common.Mail
+		SccLocalPath5 = Common.Mail
+		SccProjectUniqueName6 = Common.DataImport\\Common.DataImport.csproj
+		SccProjectName6 = Common.DataImport
+		SccLocalPath6 = Common.DataImport
+		SccProjectUniqueName7 = Common.DataExport\\Common.DataExport.csproj
+		SccProjectName7 = Common.DataExport
+		SccLocalPath7 = Common.DataExport
+		SccProjectUniqueName8 = Common.Logger\\Common.Logger.csproj
+		SccProjectName8 = Common.Logger
+		SccLocalPath8 = Common.Logger
+		SccProjectUniqueName9 = Common.Security\\Common.Security.csproj
+		SccProjectName9 = Common.Security
+		SccLocalPath9 = Common.Security
+		SccProjectUniqueName10 = Common.SpatialData\\Common.SpatialData.csproj
+		SccProjectName10 = Common.SpatialData
+		SccLocalPath10 = Common.SpatialData
+		SccProjectUniqueName11 = Common.PdfGenerator\\Common.PdfGenerator.csproj
+		SccProjectName11 = Common.PdfGenerator
+		SccLocalPath11 = Common.PdfGenerator
+		SccProjectUniqueName12 = Common.EngineModel\\Common.EngineModel.csproj
+		SccProjectName12 = Common.EngineModel
+		SccLocalPath12 = Common.EngineModel
+		SccProjectUniqueName13 = Common.SchedulerCore\\Common.SchedulerCore.csproj
+		SccProjectName13 = Common.SchedulerCore
+		SccLocalPath13 = Common.SchedulerCore
+	EndGlobalSection
+EndGlobal
